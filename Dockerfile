@@ -85,9 +85,9 @@ RUN /scripts/setup.sh \
 
 ENV \
     ## Initial Memory that Java can allocate
-    INITIAL_MEMORY="2G" \
+    INITIAL_MEMORY="500Mb" \
     ## Maximum Memory that Java can allocate
-    MAXIMUM_MEMORY="4G" \
+    MAXIMUM_MEMORY="900Mb" \
     XFRAME_OPTIONS="true" \
     REQUEST_TIMEOUT=60 \
     PARARELL_REQUEST=100 \
